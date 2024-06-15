@@ -1,0 +1,37 @@
+{
+    "name": "mammatus/kubernetes-contracts",
+    "description": "Kubernetes contracts",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "wyrihaximus/test-utilities": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mammatus\\Kubernetes\\Contracts\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "ergebnis/composer-normalize": true,
+            "infection/extension-installer": true
+        },
+        "platform": {
+            "php": "8.2.13"
+        },
+        "sort-packages": true
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "composer normalize",
+            "composer update --lock --no-scripts"
+        ],
+        "post-update-cmd": [
+            "composer normalize",
+            "composer update --lock --no-scripts"
+        ]
+    }
+}
