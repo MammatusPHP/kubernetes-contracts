@@ -4,10 +4,6 @@ declare(strict_types=1);
 
 namespace Mammatus\Kubernetes\Contracts\AddOn;
 
-interface Container
+interface Container extends AbstractAddOn
 {
-    /**
-     * The Helper to call
-     */
-    public function helper(): string;
 }
