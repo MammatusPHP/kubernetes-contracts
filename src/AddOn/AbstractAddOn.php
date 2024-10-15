@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace Mammatus\Kubernetes\Contracts\AddOn;
 
-interface AbstractAddOn extends \JsonSerializable
+use JsonSerializable;
+
+interface AbstractAddOn extends JsonSerializable
 {
     /**
      * The type of addon:
