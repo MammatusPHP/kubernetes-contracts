@@ -6899,20 +6899,20 @@
         },
         {
             "name": "sanmai/later",
-            "version": "0.1.4",
+            "version": "0.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sanmai/later.git",
-                "reference": "e24c4304a4b1349c2a83151a692cec0c10579f60"
+                "reference": "72a82d783864bca90412d8a26c1878f8981fee97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sanmai/later/zipball/e24c4304a4b1349c2a83151a692cec0c10579f60",
-                "reference": "e24c4304a4b1349c2a83151a692cec0c10579f60",
+                "url": "https://api.github.com/repos/sanmai/later/zipball/72a82d783864bca90412d8a26c1878f8981fee97",
+                "reference": "72a82d783864bca90412d8a26c1878f8981fee97",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.4"
+                "php": ">=8.2"
             },
             "require-dev": {
                 "ergebnis/composer-normalize": "^2.8",
@@ -6951,7 +6951,7 @@
             "description": "Later: deferred wrapper object",
             "support": {
                 "issues": "https://github.com/sanmai/later/issues",
-                "source": "https://github.com/sanmai/later/tree/0.1.4"
+                "source": "https://github.com/sanmai/later/tree/0.1.7"
             },
             "funding": [
                 {
@@ -6959,24 +6959,24 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-10-24T00:25:28+00:00"
+            "time": "2025-05-11T01:48:00+00:00"
         },
         {
             "name": "sanmai/pipeline",
-            "version": "v6.11",
+            "version": "6.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sanmai/pipeline.git",
-                "reference": "a5fa2a6c6ca93efa37e7c24aab72f47448a6b110"
+                "reference": "f32413630904f83b069a7fbdfab34267dbaecdb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sanmai/pipeline/zipball/a5fa2a6c6ca93efa37e7c24aab72f47448a6b110",
-                "reference": "a5fa2a6c6ca93efa37e7c24aab72f47448a6b110",
+                "url": "https://api.github.com/repos/sanmai/pipeline/zipball/f32413630904f83b069a7fbdfab34267dbaecdb6",
+                "reference": "f32413630904f83b069a7fbdfab34267dbaecdb6",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.4 || ^8.0"
+                "php": ">=8.2"
             },
             "require-dev": {
                 "ergebnis/composer-normalize": "^2.8",
@@ -6985,8 +6985,8 @@
                 "league/pipeline": "^0.3 || ^1.0",
                 "phan/phan": ">=1.1",
                 "php-coveralls/php-coveralls": "^2.4.1",
-                "phpstan/phpstan": ">=0.10",
-                "phpunit/phpunit": ">=9.4",
+                "phpstan/phpstan": ">=0.10 <2",
+                "phpunit/phpunit": ">=9.4 <12",
                 "vimeo/psalm": ">=2"
             },
             "type": "library",
@@ -7016,7 +7016,7 @@
             "description": "General-purpose collections pipeline",
             "support": {
                 "issues": "https://github.com/sanmai/pipeline/issues",
-                "source": "https://github.com/sanmai/pipeline/tree/v6.11"
+                "source": "https://github.com/sanmai/pipeline/tree/6.16"
             },
             "funding": [
                 {
@@ -7024,7 +7024,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-06-15T03:11:19+00:00"
+            "time": "2025-06-02T06:36:22+00:00"
         },
         {
             "name": "sebastian/cli-parser",
