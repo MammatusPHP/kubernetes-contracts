@@ -3,10 +3,10 @@
     "description": "Kubernetes contracts",
     "license": "MIT",
     "require": {
-        "php": "^8.2"
+        "php": "^8.4"
     },
     "require-dev": {
-        "wyrihaximus/test-utilities": "^6.0.10"
+        "wyrihaximus/test-utilities": "^12.0.0"
     },
     "autoload": {
         "psr-4": {
@@ -17,10 +17,12 @@
         "allow-plugins": {
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "ergebnis/composer-normalize": true,
-            "infection/extension-installer": true
+            "infection/extension-installer": true,
+            "phpstan/extension-installer": true,
+            "wyrihaximus/test-utilities": true
         },
         "platform": {
-            "php": "8.2.13"
+            "php": "8.4.13"
         },
         "sort-packages": true
     },
