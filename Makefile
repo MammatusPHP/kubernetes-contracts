@@ -46,9 +46,6 @@ cs: ## Check the code for code style issues
 stan: ## Run static analysis (PHPStan)
 	$(DOCKER_RUN) vendor/bin/phpstan analyse src --ansi -c ./etc/qa/phpstan.neon
 
-psalm: ## Run static analysis (Psalm)
-	$(DOCKER_RUN) vendor/bin/psalm --threads=$(THREADS) --shepherd --stats --config=./etc/qa/psalm.xml
-
 composer-install: ## Install dependencies
 	$(DOCKER_RUN) composer install --no-progress --ansi --no-interaction --prefer-dist -o
 

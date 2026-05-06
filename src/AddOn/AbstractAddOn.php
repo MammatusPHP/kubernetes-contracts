@@ -6,6 +6,7 @@ namespace Mammatus\Kubernetes\Contracts\AddOn;
 
 use JsonSerializable;
 
+/** @api */
 interface AbstractAddOn extends JsonSerializable
 {
     /**
