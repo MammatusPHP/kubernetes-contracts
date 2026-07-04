@@ -1,4 +1,7 @@
 parameters:
+	paths:
+		- ../../etc
+		- ../../src
 	level: max
 	ergebnis:
 		noExtends:
