@@ -14,7 +14,7 @@ permissions:
 jobs:
   ci:
     name: Continuous Integration
-    uses: WyriHaximus/github-workflows/.github/workflows/package.yaml@main
+    uses: WyriHaximus/github-workflows/.github/workflows/package.yaml@d83ec8d981216c005fcfa3e03ff49970bf36bfbb # main
     with:
       env: "{\"REDIS_DSN\":\"redis://redis:6379/6\"}"
       services: "{\"redis\":{\"image\":\"redis\",\"options\":\"--health-cmd \\\"redis-cli ping\\\" --health-interval 1s --health-timeout 5s --health-retries 50\"}}"
